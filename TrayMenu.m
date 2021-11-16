@@ -89,7 +89,7 @@
 	NSMenu *menu = [self createMenu];
 	
     // Check if Darkmode menubar is supported and enable templating of the icon in that case.
-    NSImage *icon = [NSImage imageNamed:@"mouse"];
+    NSImage *icon = [NSImage imageNamed:@"FingerTemplate"];
     [icon setSize:CGSizeMake(19, 19)];
     
     BOOL oldBusted = (floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_9);
